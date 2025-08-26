@@ -1,8 +1,4 @@
-0.3
--2.5
-26
-4
-with open("inputs_single.txt", "r") as f:
+with open("Singlefile_text.txt", "r") as f:
     lines = f.readlines()
 
 a = float(lines[0])
